@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>65e12238427d4a7c868a0d5335de138b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="import-libraries-and-dependencies-for-data-models-and-evaluation"
+class="cell markdown" id="yMTuyzfjEQBD">
+<h2>Import libraries and dependencies for data, models, and
+evaluation</h2>
+</section>
+<div class="cell code" data-execution_count="1" id="DlWeBaRLCKOV">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sentence_transformers <span class="im">import</span> SentenceTransformer, util, InputExample, losses, CrossEncoder</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> f1_score</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.utils.data <span class="im">import</span> DataLoader</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">&quot;WANDB_DISABLED&quot;</span>] <span class="op">=</span> <span class="st">&quot;true&quot;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<section
+id="loading-the-dataset-creating-a-50k-stratified-subset-and-splitting-it"
+class="cell markdown" id="iFdSZwvbEc2r">
+<h2>Loading the dataset, creating a 50k stratified subset, and splitting
+it</h2>
+</section>
+<div class="cell code" data-execution_count="2"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="-L2PM7HLACq9" data-outputId="f704ae59-5e57-4aa7-e68b-86beddb0c15e">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;train.csv&quot;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>subset_size <span class="op">=</span> <span class="dv">50000</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>df_subset, _ <span class="op">=</span> train_test_split(</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    df,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    train_size<span class="op">=</span>subset_size,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    stratify<span class="op">=</span>df[<span class="st">&quot;is_duplicate&quot;</span>],</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>train, temp <span class="op">=</span> train_test_split(</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    df_subset,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    test_size<span class="op">=</span><span class="fl">0.2</span>,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    stratify<span class="op">=</span>df_subset[<span class="st">&quot;is_duplicate&quot;</span>],</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>valid, test <span class="op">=</span> train_test_split(</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    temp,</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    test_size<span class="op">=</span><span class="fl">0.5</span>,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    stratify<span class="op">=</span>temp[<span class="st">&quot;is_duplicate&quot;</span>],</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>os.makedirs(<span class="st">&quot;splits&quot;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>train.to_csv(<span class="st">&quot;splits/train.csv&quot;</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>valid.to_csv(<span class="st">&quot;splits/valid.csv&quot;</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>test.to_csv(<span class="st">&quot;splits/test.csv&quot;</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Final sizes:&quot;</span>, <span class="bu">len</span>(train), <span class="bu">len</span>(valid), <span class="bu">len</span>(test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Final sizes: 40000 5000 5000
+</code></pre>
+</div>
+</div>
+<section
+id="baseline-model-encode-test-questions-with-a-pre-trained-bi-encoder"
+class="cell markdown" id="iIRKcaM9EwEg">
+<h2>Baseline Model: Encode test questions with a pre-trained
+bi-encoder</h2>
+</section>
+<div class="cell code" data-execution_count="3"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:491,&quot;referenced_widgets&quot;:[&quot;abdd357e3e9b430cbfc5aed81e94ea68&quot;,&quot;70e17cc3c00e421ca52d185dd1f546c5&quot;,&quot;8df4fdf9f5d140b28ba61392d059d43b&quot;,&quot;46e418e6be0b4a888cd423c9c42dc4a8&quot;,&quot;7cfe3a093a5b4f82a66eb629bada95df&quot;,&quot;807af5c286d64a5a846680621f302e04&quot;,&quot;6aafa1ef38d742129e2ccc0685e86605&quot;,&quot;7122a2190f4241a4bbd56be65588a7ef&quot;,&quot;0a03ee796e0f46ff941f5c11fa848b00&quot;,&quot;195505eee28848d8adef2636c0829cd2&quot;,&quot;27b0464f1e9f4a75ad3ce2a3f8e22f44&quot;,&quot;192dc55ed03f4a4ea4efce2a32f3b041&quot;,&quot;594af2e5e6b94378812663d330da0357&quot;,&quot;8f605f6ef16141798c17dd4c8183197a&quot;,&quot;dd668e90a57d478d9870570b692d8bf3&quot;,&quot;a44fad67d0304a2bbbc3dcf6a9264d50&quot;,&quot;242ecc33e3234e458dc64b1872b13155&quot;,&quot;2980b08f13ef4340b25fed3bfac328a3&quot;,&quot;17f5248a288b4f5e83d3d1f1397a6dc6&quot;,&quot;fe67ac992a3b4db09053e7f576ec9094&quot;,&quot;a203812d79f540e1870fc87ffb71fe3d&quot;,&quot;70996c153e5349259bd59c349a31368d&quot;,&quot;91a5e7d5213c4c27aa3fdc27a2d3b2ca&quot;,&quot;4bb86cd0ebf94d9596040c83056ddb7d&quot;,&quot;c9c2297a8b494c47a0db3aa7ecde2eb0&quot;,&quot;af948f76a8d94241869d0ceadf177551&quot;,&quot;2c4df879d52b4ecd9a30c101e18bb33f&quot;,&quot;242b34ff51fe4a2dba6b2379d50f2608&quot;,&quot;d8579ac59a5f492ba2c1fd1669646df9&quot;,&quot;02c8c66105d64a83a28af4b118d6e7a9&quot;,&quot;2839bf2655da4e33a11bfc68cd53ecb0&quot;,&quot;a78f458735af4bb6a69c66422a7d3d13&quot;,&quot;c153a11812cb42e89218316e24b235a8&quot;,&quot;feef575d302b4b0a9bde712813106199&quot;,&quot;39e3cff80d1e4302889e99e9486a0155&quot;,&quot;c71f07be1e944f5f98dd18dd0ee59762&quot;,&quot;bddc4750790a402ab93a9b41b17da6e4&quot;,&quot;4522a34956cc477dabfafc4271be1200&quot;,&quot;e43a35a59d1145f7b06968ffa1b06ddb&quot;,&quot;d424fb9cc656408c8438c586ed6c1b0b&quot;,&quot;a70ed611d4444a1e8ed12041b60212ea&quot;,&quot;36cfb09cf1ab4d7392853362822b8315&quot;,&quot;6fb4b0a4179d491189b3468c560da127&quot;,&quot;c8bf4e7ea79142e0a2c9d759e338be2f&quot;,&quot;81ea1c556d2f4483b79a71e144534cd7&quot;,&quot;51986cd55c1c4044b8ea10dc5641933a&quot;,&quot;76b40d45e48a49e994ffd025b4bf9cdf&quot;,&quot;5d2653794a2840c9a957dd3a3c579b03&quot;,&quot;6691603825784d398f5ed0bfe5e58fea&quot;,&quot;3d3cf678b58d4ddfa14e33c9267261d8&quot;,&quot;42bb093ac7f24722a2f18d9d59c5bb9d&quot;,&quot;e26124f5cdf14eb6a29b90b4a0f3e516&quot;,&quot;75f318eae8c44f37983f446e51a51d18&quot;,&quot;b6284d67ab8e4df9ae058bb4e3e3be83&quot;,&quot;8013f0b4965b41ef949866c2d1bc80ea&quot;,&quot;13f01499efad4d1c8a2c04d0c487e69f&quot;,&quot;ac9edb61153e482a9e64f8dcb464cbfc&quot;,&quot;7360a65117ee4c1888516e194967539c&quot;,&quot;0587237dfecb4251bafa1bbd7cc4efc1&quot;,&quot;b25a5921af4849f1a48568742fc967f9&quot;,&quot;06e33d4ab4564e0893caf2d34f7ecc49&quot;,&quot;b4a75c8db40d4e17baacf62d0889a9ee&quot;,&quot;3f1dc855022f48e0984d735202a254d7&quot;,&quot;613070b1b9da4f6d9b1afba14402ac56&quot;,&quot;8da461bb719f46efb3f52d037e9c6f37&quot;,&quot;7212c666f3cc4c41b59125767b3eaf7b&quot;,&quot;2859cfa25852435d981a64128c0bc4cc&quot;,&quot;b71b5b44507b49918dad9b7063ed145b&quot;,&quot;58617776312b4a9abcdc633d70fab604&quot;,&quot;a75a27e0c0c54047b96f3099ebb7b513&quot;,&quot;eeab76119c9b4b488f1f106758f736bd&quot;,&quot;4293c1f39f3d46d79932ae1afb39654c&quot;,&quot;27d253f1a745480abd2fbb67dc7651a2&quot;,&quot;8f109a1c596a4907ae314f0596872119&quot;,&quot;5e76b6538e344ec6981891c7bc88ce53&quot;,&quot;a747c856e9c14e71bf6571b6ab4b27b6&quot;,&quot;51770ea4c92d4ce095ef3b0076a3e00b&quot;,&quot;98027bd8c31e4ca5a79c8b44255c9ce4&quot;,&quot;4554faf31d4e4322a423d01092a4d457&quot;,&quot;f4190370b94c4da8b8472ef1bcdff041&quot;,&quot;ae484ebb5ba14503b9613f8ca627c48f&quot;,&quot;c01d123bacb449e082ac768d6ddb4c33&quot;,&quot;e744acb62b004518907f0afaa85a8484&quot;,&quot;70d01253ef5744f5b7d9339abcf79121&quot;,&quot;6a24c93c01dc4fd9a9e389537484645b&quot;,&quot;a7b66102ef784c68bbec4074ea7cb3f8&quot;,&quot;cf1205e8310941ee925279b3c87438ad&quot;,&quot;2b3aa7854b704224a51c160eb9d14276&quot;,&quot;79a7542365134c9f8645eb7ef19ac69a&quot;,&quot;417bf7f02b184fbb878a842d02a364db&quot;,&quot;d34f7d72e429487ca600d4843d738d64&quot;,&quot;a25c3569deff485a86ed5c8084740402&quot;,&quot;ad04bc36356b49a0a7a03ccc99f8a707&quot;,&quot;adc2de55ad3d49d4a8b6ddabb8a26400&quot;,&quot;6cd177cd1c8c4e02b20d3f3c214a5f0e&quot;,&quot;341ce59c974c46c28f9ee3e52881b445&quot;,&quot;bdcd40d09b23436f8c2857890a1ae0b0&quot;,&quot;cfe7ffe9ec5f4e28826d2e031d1846e5&quot;,&quot;23f56c3565a246bf869e8730ad62428a&quot;,&quot;3ab08a21a71b48afb0ed18b65d3aff28&quot;,&quot;f72f9cf95b45421bbc42729abc86f238&quot;,&quot;7e3354407a284625b1824b902e5521d6&quot;,&quot;f055e5f612f34de1894cf0ae7566fbd3&quot;,&quot;1d9ec3a55b00445fb9ef42880697d99a&quot;,&quot;88fe8c0107c44d6887638716569f00a1&quot;,&quot;de5cfbcf25924bc59c8042702762af88&quot;,&quot;ada2d2207837424c8ba2b104f8e12b3f&quot;,&quot;ebdc1ffd4c5842a3bbbec459e8b17349&quot;,&quot;d64665cb65274d4086dd46b45b589add&quot;,&quot;5b21de4f80b64c2d84fed8ef68ccde3d&quot;,&quot;6a563f069ebd4d2ebaf2f79809355d1c&quot;,&quot;c7990cc5ed2f4036bfa2fecfede4a945&quot;,&quot;0cb33e8929764309b26f08faacd3c99e&quot;,&quot;45c94ce50f494e84b43b1b1577ddec43&quot;,&quot;acf61488b72445848a3367ab2b234ec0&quot;,&quot;bf61fb8bf2f44c6fa0183b5c382659b1&quot;,&quot;411dd15d80ed45fbbc2b724140db241a&quot;,&quot;6f8fe0547ee34c9c8a7a785b11bb1bf0&quot;,&quot;3dc75caf5e364a5bbfb3d9446b9ee703&quot;,&quot;ce28646c4dab4adcb7bf5213bb807d66&quot;,&quot;86cd77e256de4e9ba2a4a71e5ccfe247&quot;]}"
+id="wNXKYFj1AfOc" data-outputId="36ec00d4-2eb5-4c44-9335-12dbba33c81d">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> pd.read_csv(<span class="st">&quot;splits/test.csv&quot;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> SentenceTransformer(<span class="st">&quot;sentence-transformers/all-MiniLM-L6-v2&quot;</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>emb1 <span class="op">=</span> model.encode(test[<span class="st">&quot;question1&quot;</span>].tolist(), batch_size<span class="op">=</span><span class="dv">128</span>, convert_to_numpy<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>emb2 <span class="op">=</span> model.encode(test[<span class="st">&quot;question2&quot;</span>].tolist(), batch_size<span class="op">=</span><span class="dv">128</span>, convert_to_numpy<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>sims <span class="op">=</span> util.cos_sim(emb1, emb2).diagonal()</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>best_f1, best_thr <span class="op">=</span> <span class="dv">0</span>, <span class="dv">0</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> thr <span class="kw">in</span> [i<span class="op">/</span><span class="dv">100</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="op">-</span><span class="dv">100</span>, <span class="dv">101</span>)]:</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    sims <span class="op">=</span> util.cos_sim(emb1, emb2).diagonal().cpu().numpy()</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    preds <span class="op">=</span> (sims <span class="op">&gt;=</span> thr).astype(<span class="bu">int</span>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    f1 <span class="op">=</span> f1_score(test[<span class="st">&quot;is_duplicate&quot;</span>], preds)</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> f1 <span class="op">&gt;</span> best_f1:</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>        best_f1, best_thr <span class="op">=</span> f1, thr</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;[Baseline] Test F1=</span><span class="sc">{</span>best_f1<span class="sc">:.4f}</span><span class="ss"> at threshold=</span><span class="sc">{</span>best_thr<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;abdd357e3e9b430cbfc5aed81e94ea68&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;192dc55ed03f4a4ea4efce2a32f3b041&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;91a5e7d5213c4c27aa3fdc27a2d3b2ca&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;feef575d302b4b0a9bde712813106199&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;81ea1c556d2f4483b79a71e144534cd7&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;13f01499efad4d1c8a2c04d0c487e69f&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;2859cfa25852435d981a64128c0bc4cc&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;98027bd8c31e4ca5a79c8b44255c9ce4&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;79a7542365134c9f8645eb7ef19ac69a&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;3ab08a21a71b48afb0ed18b65d3aff28&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;6a563f069ebd4d2ebaf2f79809355d1c&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>[Baseline] Test F1=0.7345 at threshold=0.75
+</code></pre>
+</div>
+</div>
+<section id="training-and-evaluating-bi-encoders" class="cell markdown"
+id="9FZRl1IbFVbZ">
+<h2>Training and Evaluating Bi-Encoders</h2>
+<p>Fine-tuning three different bi-encoders with specific loss functions
+and base models:</p>
+<ul>
+<li><strong>Cosine Similarity Loss</strong> using
+<code>all-MiniLM-L6-v2</code></li>
+<li><strong>Contrastive Loss</strong> using
+<code>paraphrase-MiniLM-L6-v2</code></li>
+<li><strong>Multiple Negatives Ranking Loss (MNR)</strong> using
+<code>all-mpnet-base-v2</code></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000,&quot;referenced_widgets&quot;:[&quot;9408564c463a437eaf70d840b5bfc826&quot;,&quot;cf4dd1270e5f4daeb8194ac11fa65c02&quot;,&quot;3750fdb383f14aa695e782bce3ca0c37&quot;,&quot;38d5e68ceef14ffba203cbf537772543&quot;,&quot;391f45cedccd4171af5d05079e99fa35&quot;,&quot;3fefb0a595924828ab78733606d77b91&quot;,&quot;d206dffa50a44e87b60f678fc5afcae1&quot;,&quot;d8e49786de904ebc9c024841d3987e42&quot;,&quot;af7d37fbf2da4a6caebb93e89af50832&quot;,&quot;25e81bb72d004c359540ce75a9e86850&quot;,&quot;16b4c45850a8413c90ce33c00b1f880f&quot;,&quot;afdcd8f3f249418e8de6cfb275a0c7b8&quot;,&quot;e3cfa4710fc64c78a7d6ae59449c2232&quot;,&quot;66d732709d524eeaaea572ff64f08ec1&quot;,&quot;08c6e7942c54411fa87f37f3f8398338&quot;,&quot;bd09634543c34ee9ba98fd87154668c1&quot;,&quot;c37e68f76e274a129bb259e5d58b175c&quot;,&quot;bda2c7b65b154bae934fca6b1e217ef8&quot;,&quot;2e113f6ddf9f4fef8ce794bf5b9b4602&quot;,&quot;d65fbb952544451a9d1ed43081b71129&quot;,&quot;43b5ccdf68d845be9213841676ef62a7&quot;,&quot;78f7b10c185a47de890c1b40d9c78e45&quot;,&quot;adb53a50bdf94a38a743b7239c52dc4f&quot;,&quot;046ba0b478ac4584a63cdac0ac52a568&quot;,&quot;a6b95f693a48494f97bf4966488e8821&quot;,&quot;f45827c332dd4931b1b974342044e8bb&quot;,&quot;2d7ef9eb99fa4eb4aae163aae3ed6ec3&quot;,&quot;0affdd9a425a4fefbea3c2e3d1388ef1&quot;,&quot;ff323ef59e134d05b562ea63f61c7c0b&quot;,&quot;4b16e66316464fd999e5213592757c58&quot;,&quot;bfda125a790644e98f1f1bf2955c6b9d&quot;,&quot;ccefcf0638b1474fb3ddf5e023479c5b&quot;,&quot;d86eeb555d664dc18f5249b8ee212530&quot;,&quot;33f9f9b789a04687b166d885ba6dfb84&quot;,&quot;6771324215d74c23bccf168ed7c00a7e&quot;,&quot;7ce5ce5c9d20487aa9366b6d18b69105&quot;,&quot;00cc5a6438c14795aa43d7d4cf79cc91&quot;,&quot;a58a6e580feb4c3f8dd45d357857d6f3&quot;,&quot;156d6029443f4ab1a1d020c3b78b4b5a&quot;,&quot;84f330ae916e446390fa15b2259f91c4&quot;,&quot;47426308b54c4bf0811152463cb8bfc6&quot;,&quot;d25a2cb5248048c7ad81bc862e3ca363&quot;,&quot;fca04340042142d89bdb4a025f4a2008&quot;,&quot;29e9249affd346b2bda0585aede7995e&quot;,&quot;9971e1a2187f412492b11a107fe81109&quot;,&quot;8cc1d383d49d430dbc7691bacba5422d&quot;,&quot;772381a827d042e19853e2c892b7e137&quot;,&quot;2f749494eee541118a388d996f8e1422&quot;,&quot;ef725ddadb8643e7b8201e261b07a2f2&quot;,&quot;745d59a645d04be1a8c635fb92ae0a53&quot;,&quot;ff5efc8287c44c098ba61eb14fc2714d&quot;,&quot;55368df8feda46979aed88a2d617af68&quot;,&quot;de23bd11baef4507834081bfdaabca78&quot;,&quot;a4d8640b30fa4475b69f4f8a7dfd75ab&quot;,&quot;625ebe61f19242559c7d7715ffcb143f&quot;,&quot;279e766d62174a94b1c9dd23b59f3756&quot;,&quot;6a390631862245b68da7cdebd7112e4b&quot;,&quot;2d0d99017cec46969ae183b76cc0cb9b&quot;,&quot;08c0e19d2038475e9591d6199c33bb1c&quot;,&quot;3caa84497eda45e4ba9047215ff184ee&quot;,&quot;51f8dd78bba24e468b3d09e3672d5a9e&quot;,&quot;aa6f007f91cd43da885f9085ae6a47db&quot;,&quot;0c3fb3e511924295ba41bce4a0c258f3&quot;,&quot;59e582280f90454c8003605281b5d2db&quot;,&quot;be038def9ccc4d888e55a0e6a19aac8c&quot;,&quot;25b4bf3b5e514d38b92b38bb09b87c4a&quot;,&quot;1fccd68a35d948cea347e57a293cbf0d&quot;,&quot;690a05fd2f5d4e79b4118101d5dc3804&quot;,&quot;f9d6b6d1b8f0481b88011b510e013176&quot;,&quot;8dc7be35c8b5417ca557e7befdba0438&quot;,&quot;5e3a5a4b63c54e7dada11462fcdc41dd&quot;,&quot;07bff95120b0426d8e6ac1895e12e62a&quot;,&quot;c467253bb2a8437c84a610f67da2dca7&quot;,&quot;0aec9bbb074840a9b179ab741102f965&quot;,&quot;f60a83b52d0a4b69939e68730f1e1ef8&quot;,&quot;97e515c574354b0ab4007a1c2527038d&quot;,&quot;a14b3ee33c234ba89badf7306e1f7b3c&quot;,&quot;11b86c5cd9c54399b9a4a8920d911ff5&quot;,&quot;704544e0248947f9bcb9769797464f9a&quot;,&quot;cf57d61540194b13a3d29070a7e8ab85&quot;,&quot;dc2b113cbfae4c4684c1762831734586&quot;,&quot;c9a32fc443d04e058edf0e1cd36082fb&quot;,&quot;b147dc9df5e0433aa52f90fd614e54bf&quot;,&quot;a63e76f628094fd19b7ce14da52b837c&quot;,&quot;ff141e036e8a4bbda714249a88883672&quot;,&quot;cd14650f834140d88e36293be12a43a7&quot;,&quot;a91ca2e2a8074b48b1129b75ac468219&quot;,&quot;f2ec903824484430b6bfe75f161ffd6b&quot;,&quot;5d653830f776400abb0a84a5ed00a4c9&quot;,&quot;f87a1228d79e4784a523708d4d9b9ad8&quot;,&quot;eacf8d9e7fd448258e292c8e2f0261fd&quot;,&quot;f523d4a1d6a14869bc24e44b96de2fe0&quot;,&quot;1dab4429ec0f407080218ba127d13427&quot;,&quot;7a95860222054f3fa2724c599a5bc070&quot;,&quot;f346c3efb1f046f9b0f11432edb90486&quot;,&quot;9ad00b2609d24ef487cfd3811660c2bc&quot;,&quot;567f4f4c826c42efa1d090c4fcae1543&quot;,&quot;77ef25897ced4151b29eeee1bb3bddb8&quot;,&quot;f20d3bc70358495d9d36fae826020879&quot;,&quot;b5a1ff7966a84017bbd10d024b1f11b4&quot;,&quot;97a3fb64afb9427a9c4a4ab2ea6b0cf7&quot;,&quot;1bf4818298ca44cf8f8eb0f7db846323&quot;,&quot;401ba0f173c24414b6a71eee444c5f24&quot;,&quot;f1a96a787de64717929d297379ad28ac&quot;,&quot;73907ffcd45147b1aa8e9f8964f73d04&quot;,&quot;02e9b48711c54ffe82077fa564ca0a5a&quot;,&quot;56cc2f82104e488695fb3f79024fcab6&quot;,&quot;891d2a916f6248509f716c36076c1780&quot;,&quot;3c2ababf30d64e75ad803d206ee98f36&quot;,&quot;5090f6eaf8dc450698e4f3640154816a&quot;,&quot;e1ce2aa39e144fd184793e404fbba07a&quot;,&quot;e07764a9b1d844ff8e0cc49e9521c6c5&quot;,&quot;e241d6bb28e8403e8016648488ef1a11&quot;,&quot;5b070fa36950488c815b9903cbc8d724&quot;,&quot;f53d016ca8f0491981b923e68bef9925&quot;,&quot;8e90ac410d8244e0863e17a465dd8328&quot;,&quot;edbafaf27d9342fd9e61a8a478292f5e&quot;,&quot;6c266c535ead44bd87306a62b200d30e&quot;,&quot;eda3b55af9844cbfb0e6f1c95cfb2f36&quot;,&quot;dbf3ca4b33e34c26b3de5546e9205349&quot;,&quot;3abe83ad18ac413c90d768083e505e8e&quot;,&quot;ea8f5aa1b66c4210a7097fa148d66eff&quot;,&quot;2fb2b62c92f045539507b98ca7845acc&quot;,&quot;b5234440357d4a8995ff6011211f2b7b&quot;,&quot;90e2c7f5bbb1467389f5fde5a82e96d3&quot;,&quot;b2c93d9a9cd445ed81568648ee12c0d6&quot;,&quot;837c409320b34d01ba3189c5f6d1f3ef&quot;,&quot;e8a221a054b148d09f9df527df56e9e9&quot;,&quot;a4fad6821c314343a85ebe5ddbcc305d&quot;,&quot;25cad90029074616aa80ea08a01a908f&quot;,&quot;57d9e3b1b45347e3b0a1a076235f0b20&quot;,&quot;da8bdc310cd04ff49ddb9a8c9a0a6e28&quot;,&quot;53127f6620f74821840c1a33621f2605&quot;,&quot;e4f2ea89c33e45cc9dcfaee97aa72a8a&quot;,&quot;7945f9ca9b364679b119968cacb0b3a8&quot;,&quot;5613bf4c596b47ee807038e2b7a14d1d&quot;,&quot;8cf4b549df4a48b49e1ce534f0d4d633&quot;,&quot;6edda71d3a824a0a8dae23ea4cc6eab3&quot;,&quot;a243aa3cbe524f018e9d055722922e52&quot;,&quot;0d06aa5d2789484793744545d09bae85&quot;,&quot;a7998cdbb3a8441eb640e15c8fdc01e0&quot;,&quot;efda81f41a3e4daa916224ce2a7e7d96&quot;,&quot;9e60b9bdc2904e2097bedf88f6dd160e&quot;,&quot;b49c9420314a4dc3acf102a8142f8c2c&quot;,&quot;ed7cb950acfd4acfaba61c529d4fb1a5&quot;,&quot;d33d976d92164df58dfdb3d64a7ba4dd&quot;,&quot;cf1aac2bfdaa4bd0a16e83c448d9401b&quot;,&quot;c500d63f7ad746aaac24c2226c3632ce&quot;,&quot;bdcc645faf5e4fbeb953ea4a34730754&quot;,&quot;60b05af443834d30bea0c1f56c1caa4f&quot;,&quot;5eb54e7e983c4a88baedc3c570ce4358&quot;,&quot;f353f98a8ae1498695cb9abbf3104253&quot;,&quot;2fd9abf1b87d477b818ffb30b2df1a87&quot;,&quot;0098d72889854d8b9b3da43da0b2e47a&quot;,&quot;1695aa776c0742e8a27eca7ebd9d4f23&quot;,&quot;1851846daade40a6b46ffafc2c3a26b2&quot;,&quot;a3a575237c184d1fb0f797f84e497432&quot;,&quot;aced59ba82a04a2d806fada6f332f3e2&quot;,&quot;52111188856b48bdaffbb86b6b71ab94&quot;,&quot;fb4a92fedb094c8187e25258f9d8ba2e&quot;,&quot;61ba960087dc42188bb8e01ec7f4afa6&quot;,&quot;c6088907d9894213b13341b0b35ae57e&quot;,&quot;8a1fce055c474deb9838eae27a84bf2a&quot;,&quot;d22e8251c7e24e5c993172b91d1255db&quot;,&quot;3490052cf60246e2a42d235b099af1a5&quot;,&quot;3e002aaa778844eb8db46a1ae6cb23d7&quot;,&quot;513db52d7f9b44bdbe55c0cd5bdf2911&quot;,&quot;8185d131afe04ba0a5e700b473e0d1bd&quot;,&quot;3070b444a8e245f3acbdea6e4e0847db&quot;,&quot;1f2fbc5ba3b2461784a28760992d8af3&quot;,&quot;e5616f44fb604fc29a4baf0829c9a431&quot;,&quot;2bb26782c5ed49c480cf2ed4a2552da7&quot;,&quot;c8d19c33deab4d8e81b89de494127f2b&quot;,&quot;bca618c897e3463bb12c5c57fe8d6a8f&quot;,&quot;450f0c64e0d846ed9e3c47a59369b74c&quot;,&quot;799a7d671ffa4f9bb8d33e603389740e&quot;,&quot;a626c80f663d40218371f7ee75b5d0c5&quot;,&quot;c6cce4d6ac7a47aa8ad87efa12cef310&quot;,&quot;9ed1530afbe342de93695ef629f41f35&quot;,&quot;1011dd1f13904ae1a572853a3501c634&quot;,&quot;96e40975a0264e5bb239ea92b79f9961&quot;,&quot;392ff426cfc24d0e9f338da7e6967fa3&quot;,&quot;f7cf92d4d0bf4d978995122f7ef65596&quot;,&quot;8f31c89e6dc44e1c8551072ed4aee3cd&quot;,&quot;18cebf593e61447981b28a2068bcc011&quot;,&quot;69f91d2a053149728d9b9ad691cae46b&quot;,&quot;a340b0ea75574ea4be7de40b5787cab9&quot;,&quot;65177903420a43d482e88b3796e6d020&quot;,&quot;31a07790baf44b8a8e580d9999688b4f&quot;,&quot;8b041c4370ac4dec87c6d72ebb1256f2&quot;,&quot;2a87db9b07c84fb799ebb58df3c59603&quot;,&quot;ad500cc7d6264b39b2ceac2cab8f37b6&quot;,&quot;6ee90bf83b32407792276496208d4020&quot;,&quot;e646535a95cd48399fdd0aadb3873f08&quot;,&quot;5f4eb9c64cf14eb5a3ea008eeed3642b&quot;,&quot;0c9c074b8221416ab5a98a35b4d8f93f&quot;,&quot;1f03e803279c46f88b59629ddd2351cb&quot;,&quot;0b4610cd096441b1a363d831535309bf&quot;,&quot;9ee4ed6053cf44e69bfc6e1dbb972237&quot;,&quot;ea4e4148916c46c795f00762e710f6b5&quot;,&quot;70b78ce37e504ce0b65946c45be45115&quot;,&quot;dfb4a303a8fc48039d8e5ba9934d93ae&quot;,&quot;d59041ca47d04254ac0b607d0775360c&quot;,&quot;5988798eb41f44249ce27a6a37ee9b79&quot;,&quot;d0c70e8c5e3f4abca826d051d79ad9b5&quot;,&quot;3879849bf95e4b5cb675ff2a06fbea11&quot;,&quot;bc020bb2b14a4292b1f52692abd034f7&quot;,&quot;c0af3bd44412431ab0ad4e34675d81b9&quot;,&quot;c7da27aa9df34ee695e3439637185ce0&quot;,&quot;04211cd33ff146c488e4a912e54b52e8&quot;,&quot;b32187ea2d1a4460bf9ebf1a0d7e1580&quot;,&quot;94fc1cc988e34808900be90e6c82cd4f&quot;,&quot;e0caa0653f384ff7be75a7df817af563&quot;,&quot;3cee4bd667534633b0d14a3eb82af8b6&quot;,&quot;5a6c44048d2347efaef1c9aba02598fd&quot;,&quot;fd5d5979cd644512abd099a3f71ea7a4&quot;,&quot;c92c7e8279b848ca8320ff0508f0f41e&quot;,&quot;0982ddad051e4d69bdd4f62cd322f423&quot;,&quot;159be482fc1e496090fedfe80673a0d9&quot;,&quot;ffc6d08fda524bb8bb9a0bd17a5b0d69&quot;,&quot;ab0220e7f1224ceeadee773e7c20a127&quot;,&quot;5840c938265e460b936b624bd005e787&quot;,&quot;d10568c1707e49bcb9dbc671936eadd0&quot;,&quot;2c25e504909c43149fd9413f325f94e9&quot;,&quot;4ede0c552196442a990669e5ccd11893&quot;,&quot;941572176a0b48548b0628c461b8a4cf&quot;,&quot;b6bc9b3a56a940f08396f06a70eb592f&quot;,&quot;b5064249553a47cdbbde1a5432d821d3&quot;,&quot;cad8c102be4a42eaa3d97ace4c985dd9&quot;,&quot;3bc020f798634c298d5d39c86808fead&quot;,&quot;c5ab7266524d4976bd05ce35557abe19&quot;,&quot;a916d315bd844e8fa585c09f8eb63301&quot;,&quot;08362e929d0c4dbf96c7ae27bcac779c&quot;,&quot;3d227e54e8b0438dac167e8761c64a23&quot;,&quot;7635f70bd5ad4194be4f858770fcd3d3&quot;,&quot;05a30225f9e14cfe9178599843485547&quot;,&quot;383f3ad37b8c4caeb6937e2d6bd3805c&quot;,&quot;be23d6567fb746b5b9361aa775c81a88&quot;,&quot;e8d731cd5e5e41de83a7fdc22fb6d77f&quot;,&quot;3fc78d76b3b1492ca61015a155313fb5&quot;,&quot;365cc0eaa7504e4aa1c5ed034027c50e&quot;,&quot;eb57755d0ba24e63975184b211dc3b4b&quot;,&quot;eae283b7294b4b4f8c97731dcce73d09&quot;,&quot;4c6ad89c165e440e8d662b12e6237066&quot;,&quot;ab9b5e62eada42b792d78fc7c44c9c26&quot;,&quot;791b1d24bb6b4040b7d2bccc7cbfd5a2&quot;,&quot;960139cd780c4682a16f7283cb777d6a&quot;,&quot;0528087628f14bd2a839a7370341d6e5&quot;,&quot;b04bfcb57f364647b285f9cccd7987ec&quot;,&quot;9a7b27e9d0d74cb5ba51eccf5db3b996&quot;,&quot;7b45f9400e0349e18f8a2892eb647842&quot;,&quot;49773c730dab41508d6f1f5f5cb10523&quot;,&quot;0e92a60a6b0840fcb06fc320eb8eef89&quot;,&quot;3b333974b6c54f69bad0e7f822709f10&quot;,&quot;7874adb35aa94d65b6eae7bb2e2805af&quot;,&quot;4274b6e0b21c4719b70c006e51bc3a29&quot;,&quot;66ad5b95d63245b48d2cd122583d0085&quot;,&quot;52e8f4317c3c47b69d8fe1f260e0ea0b&quot;,&quot;0c0b43bbc54047b694d6a723f525feb5&quot;,&quot;63e112d9a40e4ceb93e2177fde39bd1b&quot;,&quot;2b00c80327b542c795bf183305c48d42&quot;,&quot;0c980925a5cd41afa951ca63bee8d3b3&quot;,&quot;93f9c1ee20a34eddb9de9a3fd26e122a&quot;,&quot;b861970faf054cd7bf037f4ead16a194&quot;,&quot;40fcf231c4994b9db141a9ea5095f20a&quot;,&quot;03a81fbf491a4c68a08fd53d8f3e7b94&quot;,&quot;77fa270f483f408f8c445aff00f930f8&quot;,&quot;e92cf296ef3447ed9558b82b8ca3b1ae&quot;,&quot;22c5f7b015b34b14827591961828f6e8&quot;,&quot;f7a9857e7dd9472a9d28e61a79def733&quot;,&quot;321dd9b4c9434e68930c2eb52050ff93&quot;,&quot;9e34e10f0b7e4b7886be0cf57d813d3c&quot;,&quot;b2e570b2d2a04838bebbe87028c59444&quot;,&quot;f8e63a3eeeaf472ebf672a696f45984f&quot;,&quot;55b2e6d6e05c48a9ae4a50f00c698200&quot;]}"
+id="eBLR8mu9BQ6u" data-outputId="e1525496-afec-4ef9-f63b-803f9dd98864">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>train <span class="op">=</span> pd.read_csv(<span class="st">&quot;splits/train.csv&quot;</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>valid <span class="op">=</span> pd.read_csv(<span class="st">&quot;splits/valid.csv&quot;</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> pd.read_csv(<span class="st">&quot;splits/test.csv&quot;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> to_examples(df):</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [InputExample(texts<span class="op">=</span>[row[<span class="st">&quot;question1&quot;</span>], row[<span class="st">&quot;question2&quot;</span>]], label<span class="op">=</span><span class="bu">float</span>(row[<span class="st">&quot;is_duplicate&quot;</span>])) <span class="cf">for</span> _, row <span class="kw">in</span> df.iterrows()]</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>train_examples <span class="op">=</span> to_examples(train)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>valid_examples <span class="op">=</span> to_examples(valid)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>test_examples <span class="op">=</span> to_examples(test)</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> run_biencoder(loss_type, base_model, epochs<span class="op">=</span><span class="dv">2</span>, batch_size<span class="op">=</span><span class="dv">32</span>, lr<span class="op">=</span><span class="fl">2e-5</span>):</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> SentenceTransformer(base_model)</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> loss_type <span class="op">==</span> <span class="st">&quot;mnr&quot;</span>:</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>        train_loss <span class="op">=</span> losses.MultipleNegativesRankingLoss(model)</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> loss_type <span class="op">==</span> <span class="st">&quot;cos&quot;</span>:</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> ex <span class="kw">in</span> train_examples:</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>            ex.label <span class="op">=</span> <span class="fl">1.0</span> <span class="cf">if</span> ex.label <span class="op">==</span> <span class="fl">1.0</span> <span class="cf">else</span> <span class="op">-</span><span class="fl">1.0</span></span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>        train_loss <span class="op">=</span> losses.CosineSimilarityLoss(model)</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> loss_type <span class="op">==</span> <span class="st">&quot;contrastive&quot;</span>:</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>        train_loss <span class="op">=</span> losses.OnlineContrastiveLoss(</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>            model,</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>            distance_metric<span class="op">=</span>losses.SiameseDistanceMetric.COSINE_DISTANCE,</span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>            margin<span class="op">=</span><span class="fl">0.5</span></span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">&quot;loss_type must be one of: mnr, cos, contrastive&quot;</span>)</span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a>    train_dataloader <span class="op">=</span> DataLoader(train_examples, shuffle<span class="op">=</span><span class="va">True</span>, batch_size<span class="op">=</span>batch_size)</span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a>    model.fit(</span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>        train_objectives<span class="op">=</span>[(train_dataloader, train_loss)],</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a>        epochs<span class="op">=</span>epochs,</span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a>        warmup_steps<span class="op">=</span><span class="dv">100</span>,</span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a>        optimizer_params<span class="op">=</span>{<span class="st">&#39;lr&#39;</span>: lr},</span>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a>        show_progress_bar<span class="op">=</span><span class="va">True</span></span>
+<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Evaluate</span></span>
+<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> evaluate(model, examples, lt):</span>
+<span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a>        q1 <span class="op">=</span> [ex.texts[<span class="dv">0</span>] <span class="cf">for</span> ex <span class="kw">in</span> examples]</span>
+<span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a>        q2 <span class="op">=</span> [ex.texts[<span class="dv">1</span>] <span class="cf">for</span> ex <span class="kw">in</span> examples]</span>
+<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a>        labels <span class="op">=</span> [<span class="bu">int</span>(ex.label) <span class="cf">if</span> lt <span class="op">!=</span> <span class="st">&quot;cos&quot;</span> <span class="cf">else</span> (<span class="dv">1</span> <span class="cf">if</span> ex.label <span class="op">==</span> <span class="fl">1.0</span> <span class="cf">else</span> <span class="dv">0</span>) <span class="cf">for</span> ex <span class="kw">in</span> examples]</span>
+<span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a>        emb1 <span class="op">=</span> model.encode(q1, batch_size<span class="op">=</span><span class="dv">128</span>, convert_to_numpy<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a>        emb2 <span class="op">=</span> model.encode(q2, batch_size<span class="op">=</span><span class="dv">128</span>, convert_to_numpy<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-48"><a href="#cb18-48" aria-hidden="true" tabindex="-1"></a>        sims <span class="op">=</span> util.cos_sim(emb1, emb2).diagonal().cpu().numpy()</span>
+<span id="cb18-49"><a href="#cb18-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-50"><a href="#cb18-50" aria-hidden="true" tabindex="-1"></a>        best_f1, best_thr <span class="op">=</span> <span class="dv">0</span>, <span class="dv">0</span></span>
+<span id="cb18-51"><a href="#cb18-51" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> thr <span class="kw">in</span> [i<span class="op">/</span><span class="dv">100</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="op">-</span><span class="dv">100</span>, <span class="dv">101</span>)]:</span>
+<span id="cb18-52"><a href="#cb18-52" aria-hidden="true" tabindex="-1"></a>            preds <span class="op">=</span> (sims <span class="op">&gt;=</span> thr).astype(<span class="bu">int</span>)</span>
+<span id="cb18-53"><a href="#cb18-53" aria-hidden="true" tabindex="-1"></a>            f1 <span class="op">=</span> f1_score(labels, preds)</span>
+<span id="cb18-54"><a href="#cb18-54" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> f1 <span class="op">&gt;</span> best_f1:</span>
+<span id="cb18-55"><a href="#cb18-55" aria-hidden="true" tabindex="-1"></a>                best_f1, best_thr <span class="op">=</span> f1, thr</span>
+<span id="cb18-56"><a href="#cb18-56" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> best_f1, best_thr</span>
+<span id="cb18-57"><a href="#cb18-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a>    val_f1, thr <span class="op">=</span> evaluate(model, valid_examples, loss_type)</span>
+<span id="cb18-59"><a href="#cb18-59" aria-hidden="true" tabindex="-1"></a>    test_f1, _ <span class="op">=</span> evaluate(model, test_examples, loss_type)</span>
+<span id="cb18-60"><a href="#cb18-60" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;[</span><span class="sc">{</span>loss_type<span class="sc">}</span><span class="ss">] Validation F1=</span><span class="sc">{</span>val_f1<span class="sc">:.4f}</span><span class="ss"> | Test F1=</span><span class="sc">{</span>test_f1<span class="sc">:.4f}</span><span class="ss"> at threshold=</span><span class="sc">{</span>thr<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-61"><a href="#cb18-61" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model, test_f1</span>
+<span id="cb18-62"><a href="#cb18-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-63"><a href="#cb18-63" aria-hidden="true" tabindex="-1"></a>cos_model, cos_f1 <span class="op">=</span> run_biencoder(<span class="st">&quot;cos&quot;</span>, <span class="st">&quot;sentence-transformers/all-MiniLM-L6-v2&quot;</span>)</span>
+<span id="cb18-64"><a href="#cb18-64" aria-hidden="true" tabindex="-1"></a>contrast_model, contrast_f1 <span class="op">=</span> run_biencoder(<span class="st">&quot;contrastive&quot;</span>, <span class="st">&quot;sentence-transformers/paraphrase-MiniLM-L6-v2&quot;</span>)</span>
+<span id="cb18-65"><a href="#cb18-65" aria-hidden="true" tabindex="-1"></a>mnr_model, mnr_f1 <span class="op">=</span> run_biencoder(<span class="st">&quot;mnr&quot;</span>, <span class="st">&quot;sentence-transformers/all-mpnet-base-v2&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;9408564c463a437eaf70d840b5bfc826&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='2500' max='2500' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [2500/2500 03:07, Epoch 2/2]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Step</th>
+      <th>Training Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>500</td>
+      <td>1.132900</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>1.005600</td>
+    </tr>
+    <tr>
+      <td>1500</td>
+      <td>0.978900</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>0.955200</td>
+    </tr>
+    <tr>
+      <td>2500</td>
+      <td>0.953100</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output stream stdout">
+<pre><code>[cos] Validation F1=0.6915 | Test F1=0.6816 at threshold=0.23
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;afdcd8f3f249418e8de6cfb275a0c7b8&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;adb53a50bdf94a38a743b7239c52dc4f&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;33f9f9b789a04687b166d885ba6dfb84&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;9971e1a2187f412492b11a107fe81109&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;279e766d62174a94b1c9dd23b59f3756&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;1fccd68a35d948cea347e57a293cbf0d&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;11b86c5cd9c54399b9a4a8920d911ff5&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;5d653830f776400abb0a84a5ed00a4c9&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;b5a1ff7966a84017bbd10d024b1f11b4&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;e1ce2aa39e144fd184793e404fbba07a&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;ea8f5aa1b66c4210a7097fa148d66eff&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;53127f6620f74821840c1a33621f2605&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='2500' max='2500' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [2500/2500 03:08, Epoch 2/2]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Step</th>
+      <th>Training Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>500</td>
+      <td>0.054300</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>0.000300</td>
+    </tr>
+    <tr>
+      <td>1500</td>
+      <td>0.000200</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>0.000200</td>
+    </tr>
+    <tr>
+      <td>2500</td>
+      <td>0.000200</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output stream stdout">
+<pre><code>[contrastive] Validation F1=0.5396 | Test F1=0.5400 at threshold=0.99
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;b49c9420314a4dc3acf102a8142f8c2c&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;1695aa776c0742e8a27eca7ebd9d4f23&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;3e002aaa778844eb8db46a1ae6cb23d7&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;a626c80f663d40218371f7ee75b5d0c5&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;65177903420a43d482e88b3796e6d020&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;9ee4ed6053cf44e69bfc6e1dbb972237&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;04211cd33ff146c488e4a912e54b52e8&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;ab0220e7f1224ceeadee773e7c20a127&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;a916d315bd844e8fa585c09f8eb63301&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;eae283b7294b4b4f8c97731dcce73d09&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;3b333974b6c54f69bad0e7f822709f10&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;40fcf231c4994b9db141a9ea5095f20a&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='2500' max='2500' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [2500/2500 18:35, Epoch 2/2]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Step</th>
+      <th>Training Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>500</td>
+      <td>0.405000</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>0.348300</td>
+    </tr>
+    <tr>
+      <td>1500</td>
+      <td>0.288100</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>0.249500</td>
+    </tr>
+    <tr>
+      <td>2500</td>
+      <td>0.249600</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output stream stdout">
+<pre><code>[mnr] Validation F1=0.7194 | Test F1=0.7117 at threshold=0.74
+</code></pre>
+</div>
+</div>
+<section id="cross-encoder-training--evaluation" class="cell markdown"
+id="aJIsRcj8Gnsg">
+<h2>Cross-Encoder Training &amp; Evaluation</h2>
+<p>Fine-tuning <code>ms-marco-MiniLM-L-6-v2</code> on the training
+split</p>
+</section>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:528,&quot;referenced_widgets&quot;:[&quot;add3a28da9d14aaabb00932b696821ed&quot;,&quot;9a5015653b904136b8a8f03de3d3d15e&quot;,&quot;5d86ff9d2ee64d6a86b5a36276b20875&quot;,&quot;5cb3a3d35f8a4089a4c4bb6ff9f01e8c&quot;,&quot;c169272ddd8a4cb9bba55a88adb319d8&quot;,&quot;05f7acbcc43a48e6999e991526d34f2b&quot;,&quot;934483caf0064e39b60fc1983dd774d1&quot;,&quot;3beaf9a358114237aada1feae21d6844&quot;,&quot;d814c5a3e2fd4184a8af17f82c1b4b5c&quot;,&quot;c43b9c58d1454f5c978ba08c31008c44&quot;,&quot;a3136692769c4709ac42305590092685&quot;,&quot;b2df5a0f64fc4d18910786bceec034e8&quot;,&quot;0fd7d6209da04d26a790f035d599fab9&quot;,&quot;d1d68e1a6fad41f69fb8259479c8aadc&quot;,&quot;74939ad8ec6c47128ddca2798c26e307&quot;,&quot;b6912522ffa741838580fbd7b82f5c6e&quot;,&quot;f1819ab62c8048789d11b9ed7ed2e43a&quot;,&quot;89adb231e9d54dc49c50c5f7ec834a88&quot;,&quot;5bc1be660db147d68f99ed494fe6fc94&quot;,&quot;6d50b8f3ba2647f398d5f8983250b10a&quot;,&quot;6808c913649243a3a01f8e142cb48681&quot;,&quot;a90c7a201ef04bf4a356126d97e0ee54&quot;,&quot;9ea90c3b9ba446b3864134c4206b30ba&quot;,&quot;cf8f126c69874159b097d7e7b147d663&quot;,&quot;2c5b19bb473b4c1083d4362da87d6de8&quot;,&quot;01a2a0126dff4570af5d119810f42e66&quot;,&quot;cbf83a623a4e42f9b3bd80929b90ab26&quot;,&quot;7194daad84784e9e805bb56b013580ca&quot;,&quot;ed5fd66418eb410c8bffcc0aa4dd3a20&quot;,&quot;1124239b04ad489389dc1b73f3c0580b&quot;,&quot;77084ac20cdb4b67bc5440c1f63e422b&quot;,&quot;34b38ad8a2fa4071b4bde8264880016b&quot;,&quot;7893c301493745f4a0b07e303b4a26e1&quot;,&quot;f81797d0e44c45bebc3bc7da639f30eb&quot;,&quot;8302bb964ffa4468abab9de69b8ad77d&quot;,&quot;e973a9c7fa0746e4a28c42109e1750bb&quot;,&quot;ebdc38e6d5a14714afcc5b822a3d378b&quot;,&quot;1943eb76f2024f258a7f83567b517d91&quot;,&quot;cc44edf60b664ed097faab7c873c8b46&quot;,&quot;7f46697ce87547d6a28fa9a01ae6bcfe&quot;,&quot;9c03b76b2c3f4b69b1c5c791b7b88492&quot;,&quot;7e04a278822041fc9bc48e018948f42b&quot;,&quot;4b6ff5ad0eca47988cb1b42c5c570d74&quot;,&quot;1845ad269cbf41418e4978fa87abf105&quot;,&quot;c50fbe015703432c86034161d8715848&quot;,&quot;e7dfcb8bd0a7452aaf9d03d128d2bbcc&quot;,&quot;f7ca37dc98b1404ab3f0026841e6105e&quot;,&quot;b8b547b859bb4c0c8b91315425bf0a70&quot;,&quot;c96b764bcb664ad68749f48ecd398cf5&quot;,&quot;0e42e64c9270409aaa54ea32879fe3a2&quot;,&quot;ffe831f372954a5f8b4c8d8d7c8ed470&quot;,&quot;f4441aff8f9142afad29c573149c5eec&quot;,&quot;136bc5cebd884e5886fae972b63a7a76&quot;,&quot;c565295759954b28a6105add883543ed&quot;,&quot;f7cc982a04974bc0977c0df395b6784d&quot;,&quot;d17b626516234d948dcec18cca362c31&quot;,&quot;c535e20709024d948d409add6dc52f4b&quot;,&quot;b5ceee65d84e4ec786b02d9aeb09dbe0&quot;,&quot;9f359f9f6744499590647b4211eb94ec&quot;,&quot;e6c44a5e0ade40d6aebadf03c3d4e007&quot;,&quot;69e72c637fb44e579b128d58499600fa&quot;,&quot;db65b862ca7b4f81950c0f915f77fbfa&quot;,&quot;9bd54a6c91104ad2a6cebe304aa164b3&quot;,&quot;3ef3548f3d104d35ab0649587f922af5&quot;,&quot;c978da66eaaa42e29b9f8aa541af9be2&quot;,&quot;0ff1b27fe5314d52b6f00586ad4daaea&quot;,&quot;752de9b07acf43daa7adfc8c99bcf40a&quot;,&quot;5868dc740a4e4c3c843ef8a84b95d337&quot;,&quot;9d3f03092bb045019309d35d26fe68b1&quot;,&quot;8fdbc40cb87b457d9d9211898744a681&quot;,&quot;7facf4cab8e141c99b28e37d3207673c&quot;,&quot;cc3d7325efa64fa0ad28d42311f3853a&quot;,&quot;7373493453f34a68a09a5447721839c0&quot;,&quot;ff45fa27ef994045b5217cfa18874092&quot;,&quot;ca21b3f3f1ce4c7aa253bbc095807bf1&quot;,&quot;90986266e93f4a87b8812fc4a6d753ea&quot;,&quot;8c03dedaceaf452b89f69df31828889f&quot;]}"
+id="GXRSu3gIGGAm" data-outputId="5365d5a6-cf13-4add-b4b9-de770b71caee">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>train_samples <span class="op">=</span> [</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>    InputExample(texts<span class="op">=</span>[row[<span class="st">&quot;question1&quot;</span>], row[<span class="st">&quot;question2&quot;</span>]], label<span class="op">=</span><span class="bu">float</span>(row[<span class="st">&quot;is_duplicate&quot;</span>]))</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, row <span class="kw">in</span> train.iterrows()</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>valid_samples <span class="op">=</span> [</span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>    (row[<span class="st">&quot;question1&quot;</span>], row[<span class="st">&quot;question2&quot;</span>], <span class="bu">int</span>(row[<span class="st">&quot;is_duplicate&quot;</span>]))</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, row <span class="kw">in</span> valid.iterrows()</span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>test_samples <span class="op">=</span> [</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>    (row[<span class="st">&quot;question1&quot;</span>], row[<span class="st">&quot;question2&quot;</span>], <span class="bu">int</span>(row[<span class="st">&quot;is_duplicate&quot;</span>]))</span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, row <span class="kw">in</span> test.iterrows()</span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a>train_dataloader <span class="op">=</span> DataLoader(train_samples, shuffle<span class="op">=</span><span class="va">True</span>, batch_size<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a>ce_model <span class="op">=</span> CrossEncoder(<span class="st">&quot;cross-encoder/ms-marco-MiniLM-L-6-v2&quot;</span>, num_labels<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb50-18"><a href="#cb50-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-19"><a href="#cb50-19" aria-hidden="true" tabindex="-1"></a>ce_model.fit(</span>
+<span id="cb50-20"><a href="#cb50-20" aria-hidden="true" tabindex="-1"></a>    train_dataloader<span class="op">=</span>train_dataloader,</span>
+<span id="cb50-21"><a href="#cb50-21" aria-hidden="true" tabindex="-1"></a>    epochs<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb50-22"><a href="#cb50-22" aria-hidden="true" tabindex="-1"></a>    warmup_steps<span class="op">=</span><span class="dv">100</span>,</span>
+<span id="cb50-23"><a href="#cb50-23" aria-hidden="true" tabindex="-1"></a>    show_progress_bar<span class="op">=</span><span class="va">True</span></span>
+<span id="cb50-24"><a href="#cb50-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb50-25"><a href="#cb50-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-26"><a href="#cb50-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-27"><a href="#cb50-27" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evaluate_ce(model, samples):</span>
+<span id="cb50-28"><a href="#cb50-28" aria-hidden="true" tabindex="-1"></a>    texts <span class="op">=</span> [(q1, q2) <span class="cf">for</span> q1, q2, _ <span class="kw">in</span> samples]</span>
+<span id="cb50-29"><a href="#cb50-29" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> [lbl <span class="cf">for</span> _, _, lbl <span class="kw">in</span> samples]</span>
+<span id="cb50-30"><a href="#cb50-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-31"><a href="#cb50-31" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> model.predict(texts)</span>
+<span id="cb50-32"><a href="#cb50-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-33"><a href="#cb50-33" aria-hidden="true" tabindex="-1"></a>    best_f1, best_thr <span class="op">=</span> <span class="dv">0</span>, <span class="dv">0</span></span>
+<span id="cb50-34"><a href="#cb50-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> thr <span class="kw">in</span> np.linspace(<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">101</span>):</span>
+<span id="cb50-35"><a href="#cb50-35" aria-hidden="true" tabindex="-1"></a>        preds <span class="op">=</span> (scores <span class="op">&gt;=</span> thr).astype(<span class="bu">int</span>)</span>
+<span id="cb50-36"><a href="#cb50-36" aria-hidden="true" tabindex="-1"></a>        f1 <span class="op">=</span> f1_score(labels, preds)</span>
+<span id="cb50-37"><a href="#cb50-37" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> f1 <span class="op">&gt;</span> best_f1:</span>
+<span id="cb50-38"><a href="#cb50-38" aria-hidden="true" tabindex="-1"></a>            best_f1, best_thr <span class="op">=</span> f1, thr</span>
+<span id="cb50-39"><a href="#cb50-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> best_f1, best_thr</span>
+<span id="cb50-40"><a href="#cb50-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-41"><a href="#cb50-41" aria-hidden="true" tabindex="-1"></a>val_f1, thr <span class="op">=</span> evaluate_ce(ce_model, valid_samples)</span>
+<span id="cb50-42"><a href="#cb50-42" aria-hidden="true" tabindex="-1"></a>test_f1, _ <span class="op">=</span> evaluate_ce(ce_model, test_samples)</span>
+<span id="cb50-43"><a href="#cb50-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-44"><a href="#cb50-44" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;[CrossEncoder] Validation F1=</span><span class="sc">{</span>val_f1<span class="sc">:.4f}</span><span class="ss"> | Test F1=</span><span class="sc">{</span>test_f1<span class="sc">:.4f}</span><span class="ss"> at threshold=</span><span class="sc">{</span>thr<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;add3a28da9d14aaabb00932b696821ed&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;b2df5a0f64fc4d18910786bceec034e8&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;9ea90c3b9ba446b3864134c4206b30ba&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;f81797d0e44c45bebc3bc7da639f30eb&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;c50fbe015703432c86034161d8715848&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;d17b626516234d948dcec18cca362c31&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;752de9b07acf43daa7adfc8c99bcf40a&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+</code></pre>
+</div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='2500' max='2500' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [2500/2500 01:30, Epoch 1/1]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Step</th>
+      <th>Training Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>500</td>
+      <td>0.498900</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>0.395900</td>
+    </tr>
+    <tr>
+      <td>1500</td>
+      <td>0.378700</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>0.382600</td>
+    </tr>
+    <tr>
+      <td>2500</td>
+      <td>0.364500</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output stream stdout">
+<pre><code>[CrossEncoder] Validation F1=0.8038 | Test F1=0.7999 at threshold=0.02
+</code></pre>
+</div>
+</div>
+<section id="f1-score-eval" class="cell markdown" id="DLK3BZzlG160">
+<h2>F1 Score Eval</h2>
+</section>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6Rm9lDiJHUUt" data-outputId="950ce893-6218-470c-f1b8-0a3d95d7ac97">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> {</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Baseline&quot;</span>: <span class="st">&quot;-&quot;</span>,</span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Bi-encoder (Cosine)&quot;</span>: cos_f1,</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Bi-encoder (Contrastive)&quot;</span>: contrast_f1,</span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Bi-encoder (MNR)&quot;</span>: mnr_f1,</span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Cross-encoder&quot;</span>: test_f1</span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(results)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;Baseline&#39;: &#39;-&#39;, &#39;Bi-encoder (Cosine)&#39;: 0.6816165598817151, &#39;Bi-encoder (Contrastive)&#39;: 0.5400029252596168, &#39;Bi-encoder (MNR)&#39;: 0.7117158671586716, &#39;Cross-encoder&#39;: 0.7998996990972919}
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="wKmxuL6pJG4I">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0357a45f23a943f08700f7f9af191ee6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
